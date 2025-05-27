@@ -18,7 +18,6 @@ Storybook Practicum adalah aplikasi Flutter sederhana yang dirancang sebagai buk
 | --------------------------------- | --------------------------------- | ------------------------------- |
 | ![title](images/Screenshot_1.png) | ![scene](images/Screenshot_2.png) | ![end](images/Screenshot_3.png) |
 
-> Letakkan gambar cuplikan layar di folder `screenshots/` jika ingin menampilkannya.
 
 ## 🚀 Cara Menjalankan
 
