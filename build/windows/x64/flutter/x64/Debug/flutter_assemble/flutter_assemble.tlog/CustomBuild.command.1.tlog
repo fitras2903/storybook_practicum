@@ -1,0 +1,28 @@
+^E:\SEMESTER VI\PRAK PBM\STORYBOOK_PRACTICUM\BUILD\WINDOWS\X64\CMAKEFILES\30A686AF7B67E0126E008F70CEC655C2\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env "FLUTTER_ROOT=E:\Semester VI\PBM\flutter" "PROJECT_DIR=E:\Semester VI\prak pbm\storybook_practicum" "FLUTTER_ROOT=E:\Semester VI\PBM\flutter" "FLUTTER_EPHEMERAL_DIR=E:\Semester VI\prak pbm\storybook_practicum\windows\flutter\ephemeral" "PROJECT_DIR=E:\Semester VI\prak pbm\storybook_practicum" "FLUTTER_TARGET=E:\Semester VI\prak pbm\storybook_practicum\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=E:\Semester VI\prak pbm\storybook_practicum\.dart_tool\package_config.json" "E:/Semester VI/PBM/flutter/packages/flutter_tools/bin/tool_backend.bat" windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\SEMESTER VI\PRAK PBM\STORYBOOK_PRACTICUM\BUILD\WINDOWS\X64\CMAKEFILES\301AB5669651DEF54112A20562CB9211\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\SEMESTER VI\PRAK PBM\STORYBOOK_PRACTICUM\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/Semester VI/prak pbm/storybook_practicum/windows" "-BE:/Semester VI/prak pbm/storybook_practicum/build/windows/x64" --check-stamp-file "E:/Semester VI/prak pbm/storybook_practicum/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

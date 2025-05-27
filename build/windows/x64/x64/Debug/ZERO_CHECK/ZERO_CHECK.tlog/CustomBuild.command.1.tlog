@@ -1,0 +1,10 @@
+^E:\SEMESTER VI\PRAK PBM\STORYBOOK_PRACTICUM\BUILD\WINDOWS\X64\CMAKEFILES\DB4836FAE99A38E22D7B5E5E61782881\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/Semester VI/prak pbm/storybook_practicum/windows" "-BE:/Semester VI/prak pbm/storybook_practicum/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Semester VI/prak pbm/storybook_practicum/build/windows/x64/storybook_practicum.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

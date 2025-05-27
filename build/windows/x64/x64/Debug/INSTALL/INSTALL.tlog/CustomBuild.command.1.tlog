@@ -1,0 +1,10 @@
+^E:\SEMESTER VI\PRAK PBM\STORYBOOK_PRACTICUM\BUILD\WINDOWS\X64\CMAKEFILES\DB4836FAE99A38E22D7B5E5E61782881\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
