@@ -59,9 +59,10 @@ Storybook Practicum adalah aplikasi Flutter sederhana yang dirancang sebagai buk
 15.	Bungkus Container latar belakang dengan RawGestureDetector dan Transform.
     ![](images/langkah15.png)
 16.	Ujicoba: Coba geser latar belakang. Kalian hanya bisa menggesernya di satu sumbu (horizontal atau vertikal) dalam satu waktu.
-    ![](images/langkah16.png)
-17.	Fungsionalitas Zoom dengan InteractiveViewer
-18.	Di lib/pages/scene_page.dart, bungkus seluruh Stack dengan widget InteractiveViewer
+
+   	![](images/langkah16.png)
+18.	Fungsionalitas Zoom dengan InteractiveViewer
+19.	Di lib/pages/scene_page.dart, bungkus seluruh Stack dengan widget InteractiveViewer
     ![](images/langkah18.png)
-19.	Hot Reload dan seluruh adegan interaktif bisa di-zoom dan di-pan dengan mudah.
+20.	Hot Reload dan seluruh adegan interaktif bisa di-zoom dan di-pan dengan mudah.
 
